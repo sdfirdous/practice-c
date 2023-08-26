@@ -24,7 +24,7 @@
             background-color: rgb(220, 236, 131);
         }
         
-        .img1 {
+        .cover-image {
             background-image: url(https://media.istockphoto.com/id/516820576/photo/woman-on-a-shopping-spree.jpg?s=170667a&w=0&k=20&c=Wj3jT4w7hFsP9XyEJKKoewe6CHZAq4L9GLDKJOan-j0=);
             width: 100%;
             /* Set the width to cover the entire container */
@@ -71,38 +71,41 @@
             justify-content: center;
         }
         
-        @media (max-width: 767px) {
-            .logo-container {
-                padding: 20px;
-                /* Add some space around the elements */
-            }
-            .slogan {
-                font-size: 14px;
-                /* Adjust font size for smaller screens */
+        @media (min-width: 280px) and (max-width: 767px) {
+            .slogan{
+                margin-left: 40%;
+                padding-top: 70%;
             }
         }
-        /* Media query for tablet screens */
-        
-        @media (min-width: 768px) and (max-width: 1023px) {
-            .logo-container {
-                padding: 40px;
-                /* Add some space around the elements */
+       
+@media (min-width: 768px) and (max-width: 1024px){
+            .slogan{
+                margin-left: 45%;
+                padding-top: 70%;
             }
-            .slogan {
-                font-size: 20px;
-                /* Adjust font size for tablets */
-            }
+        }
+   
+        /* For Large Screen  */
+        .slogan{
+            margin-left: 45%;
+            padding-top: 17%;
         }
     </style>
 </head>
 
 <body class="body1">
     <div id="header"></div>
-    <div class="logo-container">
-        <div class="cover-img" class="img-fluid">
-            <h1 class="slogan">Star'S Fashion</h1>
+   <section class="cover-image ">
+    <div>
+        <div class="slogan">
+            <h2 class="">Star fashion</h2>
+            <br>
+            <p>Fllow the fashion</p>
         </div>
+
     </div>
+
+   </section>
 
 
     <div class="section2">Featured Products</div>
