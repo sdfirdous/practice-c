@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        .row {
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .body1 {
+            background-color: rgb(220, 236, 131);
+        }
+        
+        .img1 {
+            background-image: url(https://media.istockphoto.com/id/516820576/photo/woman-on-a-shopping-spree.jpg?s=170667a&w=0&k=20&c=Wj3jT4w7hFsP9XyEJKKoewe6CHZAq4L9GLDKJOan-j0=);
+            width: 100%;
+            /* Set the width to cover the entire container */
+            height: 100vh;
+            /* Set the height to cover the full viewport height */
+            /* Replace with your image URL */
+            background-size: cover;
+            /* Scale the image to cover the entire container */
+            background-position: center;
+            /* Center the image within the container */
+        }
+        
+        img {
+            height: 400px;
+            width: 300px;
+        }
+        
+        .section2 {
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: aliceblue;
+        }
+        /* Your existing styles... */
+        /* Customize the color of the carousel control buttons */
+        
+        .carousel-control-prev,
+        .carousel-control-next {
+            background-color: #FF5733;
+            /* Change this color to your preferred color */
+            border-color: #FF5733;
+            /* Change this color to match the background color */
+        }
+        /* Customize the color of the carousel control icons */
+        
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #0a0909;
+            /* Change this color to your preferred color */
+        }
+        
+        .logo1 {
+            text-align: center;
+            justify-content: center;
+        }
+        
+        @media (max-width: 767px) {
+            .logo-container {
+                padding: 20px;
+                /* Add some space around the elements */
+            }
+            .slogan {
+                font-size: 14px;
+                /* Adjust font size for smaller screens */
+            }
+        }
+        /* Media query for tablet screens */
+        
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .logo-container {
+                padding: 40px;
+                /* Add some space around the elements */
+            }
+            .slogan {
+                font-size: 20px;
+                /* Adjust font size for tablets */
+            }
+        }
+    </style>
+</head>
+
+<body class="body1">
+    <div id="header"></div>
+    <div class="logo-container">
+        <div class="cover-img" class="img-fluid">
+            <h1 class="slogan">Star'S Fashion</h1>
+        </div>
+    </div>
+
+
+    <div class="section2">Featured Products</div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+
+                <!--product one-->
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3  d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/61YPNNnNsHL._UY741_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Girls Jumpsuit</h4>
+                                <h5>12$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--product two-->
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/51nP0jmR3HL._UX679_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Shirt with Shorts</h4>
+                                <h5>12$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-md-none d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/71eEgYXPDXL._UX679_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Frock</h4>
+                                <h5>18$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-md-none d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/61eU-2gSbgL._UX679_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Jacket & Pant</h4>
+                                <h5>10$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-6 col-lg-3  d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/71G6UQ0ZUeL._UX679_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Cotton Pajama Pants</h4>
+                                <h5>5$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/41HnNEzSeCL._SY445_SX342_QL70_FMwebp_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Dress</h4>
+                                <h5>5$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/61-6cyz7J3L._AC_UL600_FMwebp_QL65_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Lycra Pants</h4>
+                                <h5>5$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/41a2yAx9ECL._UX679_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Hooded Sweatshirt</h4>
+                                <h5>10$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3  d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/61YPNNnNsHL._UY741_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Girls Jumpsuit</h4>
+                                <h5>12$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/41a2yAx9ECL._UX679_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Hooded Sweatshirt</h4>
+                                <h5>10$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/71eEgYXPDXL._UX679_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Frock</h4>
+                                <h5>18$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-none d-md-block d-lg-block">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="https://m.media-amazon.com/images/I/61eU-2gSbgL._UX679_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Jacket & Pant</h4>
+                                <h5>10$</h5>
+                                <p class="card-text">Best Deal Of The Day Deals and Offers online. Here, You will get all the Deals, Offers and Coupons of Deal Of The Day to help you save money.</p>
+                                <a href="#" class="btn text-bg-success"> <i class="fa-solid fa-cart-shopping " style="color: #111111; font-size:large;"></i> add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div id="footer"></div>
+    <script>
+        fetch("./header&footer/header.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("header").innerHTML = html;
+            });
+        fetch("./header&footer/footer.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("footer").innerHTML = html;
+            });
+    </script>
+</body>
+
+</html>

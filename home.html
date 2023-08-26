@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hero-wrapper {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zd-Q2w1gvziwSi_xmc9227QHmJUAFY9PRg&usqp=CAU);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container-fluid hero-wrapper">
+
+    </div>
+    <!--<div>
+        <section class="cover-section ">
+            <div class="cover-image ">
+                <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80 " alt="Cover Image " class="img-fluid ">
+                <div class="logo-slogan ">
+                    <p>Your Catchy Slogan Here</p>
+                </div>
+            </div>
+    </div>-->
+
+    <div id="footer"></div>
+
+
+    <script>
+        fetch("./header&footer/header.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("header").innerHTML = html;
+            });
+        fetch("./header&footer/footer.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("footer").innerHTML = html;
+            });
+    </script>
+</body>
+
+</html>

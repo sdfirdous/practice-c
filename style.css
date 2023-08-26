@@ -1,0 +1,42 @@
+    /* Basic styling for the header */
+    
+    header {
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: #111111;
+    }
+    
+    .logo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        font-weight: bolder;
+        color: #f9fd12;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 4%;
+        justify-content: space-evenly;
+    }
+    
+    .login,
+    .btn {
+        background-color: #9d9e39;
+        border-radius: 0px;
+        padding: 1px 5px;
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        justify-content: center;
+    }
+    
+    .nav2 {
+        background-color: z#73d3d6;
+    }
+    
+    .searchIcon {
+        position: relative;
+        left: -20px;
+        color: rgb(37, 37, 37);
+        z-index: 221;
+    }

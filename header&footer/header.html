@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        .hello {
+            margin-left: 550px;
+        }
+        
+        .navbar {
+            background-color: black;
+        }
+        
+        .f3 {
+            font-family: 'Times New Roman', Times, serif;
+            color: #f9fd12;
+            font-size: larger;
+        }
+        
+        .login1 {
+            background-color: #9d9e39;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px;
+            transition: background-color 0.10s ease;
+            font-size: larger;
+        }
+        
+        .move-button {
+            margin-left: 300px;
+        }
+        
+        #togg1 {
+            color: white;
+            background-color: #9d9e39;
+        }
+        
+        .nav2 {
+            background-color: #badb58;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .move-button {
+                margin-left: 0;
+            }
+            .hello {
+                width: 75%;
+                /* Adjust the margin for small screens */
+            }
+        }
+        
+        @media screen and (max-width: 576px) {
+            .hello {
+                margin-left: 0;
+                /* Reset the margin for extra small screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+
+            <div class="f3">
+                <i class="fa-regular fa-star" style="color: #f9fd12; padding-left: 20px;"></i> STAR'S FASHION
+            </div>
+            <button class="navbar-toggler" id="togg1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="post-set collapse navbar-collapse justify-content-center justify-content-lg-between" id="navbarSupportedContent">
+                <div class="hello">
+                    <form class="search-set d-flex justify-content-center" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffdd; font-size: larger; "></i>
+          </button>
+                    </form>
+                </div>
+                <div class="move-button mt-2">
+                    <button class="login1"><a href="../Login.html" style="color: black;">Login</a></button>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-cart-shopping " style="color: #9d9e39; font-size: xx-large;"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="nav2">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Products_pages/all_Products.html">All Products</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">Women</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../Products_pages/all_women.html">All products </a></li>
+                    <li><a class="dropdown-item" href="../Products_pages/Dresses_w.html">Dresses </a></li>
+                    <li><a class="dropdown-item" href="../Products_pages/Pants_W.html">Pants</a></li>
+                    <li><a class="dropdown-item" href="../Products_pages/Skirts_W.html">Skirts </a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Men</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../Products_pages/All_man_products.html">All products </a></li>
+                    <li><a class="dropdown-item" href="../Products_pages/Shirts_M.html">Shirts </a></li>
+                    <li><a class="dropdown-item" href="../Products_pages/Pants_M.html">Pants </a></li>
+                    <li><a class="dropdown-item" href="../Products_pages/Hoodies_M.html">Hoodies </a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../kids.html">Kids</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
